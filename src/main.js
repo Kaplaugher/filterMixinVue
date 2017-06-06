@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.filter('calculateLength', (value) => {
   return value + ' (' + value.length + ')';
-})
+});
 
 Vue.filter('to-lowercase', function(value) {
     return value.toLowerCase();
